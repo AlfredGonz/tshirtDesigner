@@ -84,7 +84,7 @@ var line4;
 	  		debugger;
 	  		if($(this).val() == "1"){
 	  			$("#phoneDiv").css('height','590');
-	  			$("#phone")[0].src = "img/phones/iphone5A.png";
+	  			$("#phone")[0].src = "img/phones/iPhone5A.png";
 	  			//$("#borderMask")[0].src = "img/phones/iphone5Mask.png";
 				line1 = new fabric.Line([0,0,225,0], {"stroke":"#000000", "strokeWidth":1,hasBorders:false,hasControls:false,hasRotatingPoint:false,selectable:false});
 				line2 = new fabric.Line([224,0,225,450], {"stroke":"#000000", "strokeWidth":1,hasBorders:false,hasControls:false,hasRotatingPoint:false,selectable:false});
